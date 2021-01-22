@@ -1,0 +1,188 @@
+@font-face {font-family: 'betterday'; src: url(../font/Betterday.otf);}
+@font-face {font-family: 'creamy sunset'; src: url(../font/Creamy\ Sunset.ttf);}
+@font-face {font-family: 'a big deal'; src: url(../font/aBigDeal.ttf);}
+@font-face {font-family: 'simply diet'; src: url(../font/Simply\ Diet.ttf);}
+
+.navbar h2{
+    font-family: "betterday";
+}
+
+.navbar {
+    font-family: "creamy sunset";
+    font-size: 24px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.active {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    text-shadow: 2px 1px 1px red;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: "a big deal";
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 1.9;
+    font-family: "creamy sunset";
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    background-color: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.konten {
+    background-color: seashell;
+    padding-top: 20px;
+}
+
+.konten,
+.contact {
+    padding-bottom: 20px;
+}
+
+.konten hr,
+.contact hr {
+    margin: auto;
+    width: 250px;
+    border-top: 4px solid #666;
+}
+
+.konten h2,
+.contact h2 {
+    font-family: "simply diet";
+    padding-top: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: aquamarine;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: green;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box h2{
+    line-height: 200px;
+}
+
+.card {
+    height: 300px;
+    border : 2px solid royalblue;
+}
+
+.paralax {
+    background: url(../img/ilustrasi/desain-interior-kantin-kantor-2-1024x663.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wtitle {
+    padding: 150px 20px;
+    color: white;
+    font-family: 'creamy sunset';
+    font-size: 32px;
+    text-shadow: 3px 1px 1px goldenrod;
+}
+
+.card img {
+    height: 200px
+}
+
+.card a {
+    text-decoration: none;
+    color : black;
+}
+
+.berita {
+    margin-left: auto;
+}
+
+.informasi,
+.alamat,
+.sumber {
+    margin-left: auto;
+}
+
+.contact img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer h2 {
+    font-size: 24px;
+    color: blanchedalmond;
+}

@@ -1,0 +1,68 @@
+/*style*/
+body {
+    background-color: blue;
+}
+
+/*web laptop*/
+header {
+    width: 100%;
+    top: 0;
+    z-index: 10px;
+    position: fixed;
+}
+
+.logo {
+    background-color: cyan;
+    margin: auto;
+    height: 90px;
+    border-bottom: 5px solid coral;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.list #li {
+    float: left;
+    list-style: none;
+    padding-left: 700px;
+}
+
+.list li {
+    float: left;
+    list-style: none;
+    padding-left:33px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    color: yellow;
+    background-color: violet;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+    background-color: cornflowerblue;
+    margin-top: 90px;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-indent: 10px;
+}

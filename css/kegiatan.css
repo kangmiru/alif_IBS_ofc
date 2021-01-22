@@ -1,0 +1,94 @@
+@font-face {font-family: 'betterday'; src: url(../font/Betterday.otf);}
+@font-face {font-family: 'creamy sunset'; src: url(../font/Creamy\ Sunset.ttf);}
+@font-face {font-family: 'a big deal'; src: url(../font/aBigDeal.ttf);}
+@font-face {font-family: 'simply diet'; src: url(../font/Simply\ Diet.ttf);}
+
+.navbar h2{
+    font-family: "betterday";
+}
+
+.navbar {
+    font-family: "creamy sunset";
+    font-size: 24px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.active {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.tab {
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid salmon;
+    background-color: silver;
+}
+
+.tab button {
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-top: 60px;
+}
+
+.kegiatan hr,
+.harian hr,
+.contact hr {
+    margin: auto;
+    width: 250px;
+    border-top: 4px solid #666;
+}
+
+.kegiatan h2,
+.harian h2,
+.contact h2 {
+    font-family: "simply diet";
+    padding-top: 50px;
+}
+
+.kegiatan {
+    margin-top: 40px;
+}
+
+.informasi,
+.alamat,
+.sumber {
+    margin-left: auto;
+}
+
+.contact img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer h2 {
+    font-size: 24px;
+    color: blanchedalmond;
+}

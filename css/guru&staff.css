@@ -1,0 +1,130 @@
+@font-face {font-family: 'betterday'; src: url(../font/Betterday.otf);}
+@font-face {font-family: 'creamy sunset'; src: url(../font/Creamy\ Sunset.ttf);}
+@font-face {font-family: 'a big deal'; src: url(../font/aBigDeal.ttf);}
+@font-face {font-family: 'simply diet'; src: url(../font/Simply\ Diet.ttf);}
+
+.navbar h2{
+    font-family: "betterday";
+}
+
+.navbar {
+    font-family: "creamy sunset";
+    font-size: 24px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.active {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.MA {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.MA hr,
+.mts hr,
+.staff hr,
+.pengurus hr,
+.contact hr,
+.alumni hr {
+    margin: auto;
+    width: 250px;
+    border-top: 4px solid #666;
+    margin-bottom: 20px;
+}
+
+.MA h2,
+.mts h2,
+.staff h2,
+.pengurus h2,
+.contact h2,
+.alumni h2 {
+    font-family: "simply diet";
+    padding-top: 50px;
+}
+
+.MA img,
+.mts img,
+.staff img,
+.pengurus img {
+    height: 300px;
+    width: 250px;
+}
+
+.card {
+    height: 450px;
+}
+
+.informasi,
+.alamat,
+.sumber {
+    margin-left: auto;
+}
+
+.contact img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer h2 {
+    font-size: 24px;
+    color: blanchedalmond;
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.coba {
+    position: relative;
+    width: 250px;
+}
+
+.coba img {
+    display: block;
+    width: 250px;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.coba:hover .overlay {
+    opacity: 1;
+}
+
+.alumni p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.alumni {
+    margin-top: 90px;
+}
